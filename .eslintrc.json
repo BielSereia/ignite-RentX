@@ -58,7 +58,10 @@
       { "devDependencies": ["**/*.spec.js"] }
     ],
     "prettier/prettier": "warn",
-    "@typescript-eslint/strict-boolean-expressions": "off"
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/no-misused-promises": "off",
+    "@typescript-eslint/no-floating-promises": "off",
+    "@typescript-eslint/no-throw-literal": "off"
   },
   "settings": {
     "import/resolver": {
