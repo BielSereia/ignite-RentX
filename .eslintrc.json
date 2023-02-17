@@ -18,6 +18,7 @@
   },
   "plugins": ["@typescript-eslint", "eslint-plugin-import-helpers", "prettier"],
   "rules": {
+    "comma-dangle": ["warn", "only-multiline"],
     "camelcase": "off",
     "import/no-unresolved": "error",
     "@typescript-eslint/naming-convention": [
@@ -49,7 +50,7 @@
       "warn",
       {
         "newlinesBetween": "always",
-        "groups": ["module", "/^@shared/", ["parent", "sibling", "index"]],
+        "groups": ["module", "/^@/", ["parent", "sibling", "index"]],
         "alphabetize": { "order": "asc", "ignoreCase": true }
       }
     ],
